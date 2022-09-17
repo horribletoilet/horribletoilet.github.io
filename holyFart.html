@@ -20,7 +20,6 @@
         .topPageBar h1 {
             position: fixed;
             left: 1%;
-            top: 0px;
         }
         .topPageBar2 {
             position: fixed;
@@ -38,12 +37,42 @@
             width: 100%;
             background-color: #ff032d8f;
         }
+        .floatingDiv {
+            position: fixed;
+            aspect-ratio: 1/1;
+            top: 250px;
+            left: 10%;
+            width: 20%;
+            padding-bottom: 11%;
+            background-color: #011627;
+            border: none;
+            border-radius: 10px;
+            color: aliceblue;
+            font-family: Arial;
+            animation: fadeIn 3s;
+        }
+        .floatingDiv img {
+            position: relative;
+            top: 75%;
+            transform: translateY(-45%);
+            left: 25%;
+            border-radius: 15px;
+            width: 50%;
+        }
+        @keyframes fadeIn {
+            0% {opacity: 0%;}
+            25% {opacity: 0%;}
+            100% {opacity: 100%;}
+        }
     </style>
     <body>
         <div class="topPageBar">
             <h1>thy holy fart</h1>
             <div class="topPageBar2"></div>
             <div class="topPageBar3"></div>
+        </div>
+        <div class="floatingDiv">
+            <img src="farting.jpg"></img>
         </div>
     </body>
 </html>
