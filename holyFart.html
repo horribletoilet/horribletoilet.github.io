@@ -29,20 +29,38 @@
             width: 100%;
             background-color: #ff03dd8f;
         }
+        .topPageBar2 h3 {
+            position: absolute;
+            top: -13px;
+            left: 1%;
+        }
         .topPageBar3 {
             position: fixed;
+            overflow: hidden;
             top: 99px;
             left: 0%;
             height: 22px;
             width: 100%;
             background-color: #ff032d8f;
         }
+        .topPageBar3 a {
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: white;
+            padding: 3px 1%;
+            top: -1px;
+            height: 33px;;
+        }
+        .topPageBar3 a:hover {
+            background-color: #41EAD4;
+        }
         .floatingDiv {
             position: fixed;
-            aspect-ratio: 1/1;
+            aspect-ratio: 1/0.75;
             top: 250px;
             left: 10%;
-            width: 20%;
+            width: 30%;
             padding-bottom: 11%;
             background-color: #011627;
             border: none;
@@ -64,15 +82,47 @@
             25% {opacity: 0%;}
             100% {opacity: 100%;}
         }
+        .rightSideText {
+            position: fixed;
+            aspect-ratio: 1/0.75;
+            top: 250px;
+            right: 10%;
+            width: 30%;
+            padding-bottom: 11%;
+            background-color: #F71735;
+            border: none;
+            border-radius: 10px;
+            color: aliceblue;
+            font-family: Arial;
+            animation: fadeIn 3s;
+        }
+        .rightSideText h1 {
+            position: relative;
+            top: 72%;
+            left: 10%;
+            width: 80%;
+            font-size: 2vw;
+            transform: translateY(-50%);
+        }
     </style>
     <body>
         <div class="topPageBar">
             <h1>thy holy fart</h1>
-            <div class="topPageBar2"></div>
-            <div class="topPageBar3"></div>
+            <div class="topPageBar2">
+                <h3>pages:</h3>
+            </div>
+            <div class="topPageBar3">
+                <a href="index.html">Horrible Toilet Main Page</a>
+            </div>
         </div>
         <div class="floatingDiv">
             <img src="farting.jpg"></img>
+        </div>
+        <div class="rightSideText">
+            <h1>
+                This is the lord in his finest form, born to use the toilet. His time on the toilet was incredibly horrible
+                and he is now forced to fart in solitude. Don't be like him. Appreciate the toilets in your life.
+            </h1>
         </div>
     </body>
 </html>
